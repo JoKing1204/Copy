@@ -1,0 +1,202 @@
+.img-wallpaper {
+  background-image: url(images/Background.jpg);
+  position: absolute;
+  background-color: #cccccc;
+  background-size: cover;
+}
+.header-right {
+  padding-right: 400px;
+  padding-top: 30px;
+  font-size: 16px;
+  margin-right: 0px;
+  line-height: 16px;
+  float: left;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.navbar {
+  position: relative;
+  z-index: 999;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+.navbar ul ul li {
+  display: block;
+  background-color: #3e4450;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+.install-steam {
+  display: inline-block;
+  padding-left: 35px;
+  padding-right: 9px;
+  background-position: 10px 5px;
+  background-image: url(https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-color: #6c9018;
+  font-weight: normal;
+  color: #ffffff;
+  position: relative;
+  height: 29px;
+  line-height: 24px;
+  margin-right: 3px;
+  border: none;
+}
+.install-steam:hover {
+  background-color: #6c9030;
+  transition-property: background;
+  transition-duration: 250ms;
+  cursor: pointer;
+}
+
+.navbar ul ul li a:hover {
+  background-color: #dcdedf;
+  color: #171a21;
+}
+
+.main-code {
+  overscroll-behavior: none;
+}
+
+.container {
+  scroll-behavior: none;
+}
+.header {
+  background: #171a21;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 20;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.75);
+  overflow: visible;
+  padding: 13px 8px;
+}
+.logo {
+  float: left;
+  padding-top: 30px;
+  margin-right: 40px;
+  width: 176px;
+  height: 44px;
+}
+.img {
+  width: 176px;
+  aspect-ratio: auto 176 / 44;
+  height: 44px;
+}
+.store {
+  color: #1a9fff;
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3e4450;
+  min-width: 132px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: left;
+}
+
+.dropdown-content a {
+  color: #f1ffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #dcdedf;
+  color: #171a21;
+}
+.beside-install {
+  position: absolute;
+}
+
+.beside-install ul {
+  list-style-type: none;
+  margin-left: 1500px;
+  padding: 0;
+}
+.beside-install li {
+  display: block;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+.sign-in-text {
+  position: absolute;
+  padding-left: 575px;
+  padding-top: 225px;
+  color: white;
+  width: 500px;
+}
+
+.sign-in {
+  position: absolute;
+  padding-left: 550px;
+  padding-top: 300px;
+}
+.sign-in_input {
+  position: absolute;
+  margin-left: 580px;
+  margin-top: 350px;
+  z-index: 999;
+  height: 210%;
+  width: 390px;
+  background-color: #32353c;
+  color: white;
+}
+.sign-in_input_2 {
+  position: absolute;
+  margin-left: 580px;
+  margin-top: 421px;
+  z-index: 999;
+  height: 210%;
+  width: 390px;
+  background-color: #32353c;
+  color: white;
+}
+.sign_in_btn {
+  background-color: transparent;
+  position: absolute;
+  margin-left: 644px;
+  margin-top: 503px;
+  z-index: 999;
+  height: 300%;
+  width: 270px;
+}
+.footer {
+  background: #171a21;
+  position: fixed;
+  top: 500px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.75);
+  overflow: visible;
+  padding: 13px 8px;
+}
